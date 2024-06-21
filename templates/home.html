@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Laura Máteffy</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <h1>Laura Máteffy</h1>
+    <h6>Building construction and architecture</h6>
+    <nav class="navbar">
+        
+      <ul class="">
+        <li><a href="{{url_for('home')}}"class="logo">M</a></li>
+        <li><a href="{{url_for('home')}}">Home</a></li>
+        <li><a href="{{url_for('about')}}">About</a></li>
+        <li><a href="{{url_for('work')}}">My work</a></li>
+        <li><a href="{{url_for('contactme')}}">Contact me</a></li>
+        </ul>
+    </nav>
+    <img id="banner" src="static/dom.jpg" height="100" >
+    <h2>Welcome to my webpage</h2>
+    <p>Hi there! I'm Laura, an enthusiastic architect with a deep passion for designing spaces that not only look stunning but also enhance the lives of those who inhabit them. Welcome to my personal webpage where I showcase my work, share my ideas, and take you on a journey through my architectural vision. Here, you'll find a collection of my most cherished projects, from innovative residential designs to cutting-edge commercial buildings. My work is a blend of creativity, functionality, and sustainability, driven by the desire to create environments that inspire and uplift. I'm excited to present to you the fruits of my labor and the dreams I strive to bring to life every day. So, take a look around, explore my portfolio, and feel free to reach out if you'd like to collaborate or learn more about my approach to architecture. Let's create something amazing together!</p>
+    <footer>
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+       </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="{{url_for('home')}}">Home</a></li>
+          <li><a href="{{url_for('about')}}">About</a></li>
+          <li><a href="{{url_for('work')}}">My work</a></li>
+          <li><a href="{{url_for('contactme')}}">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy; 2024; Designed by <span class="designer">Mia</span></p>
+        
+      </div>
+    </footer>
+  </body>
+</html>

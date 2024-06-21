@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Laura Máteffy</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <h1>Laura Máteffy</h1>
+    <h6>Building construction and architecture</h6>
+    <nav class="navbar">
+
+      <ul class="">
+        <li><a href="{{url_for('home')}}"class="logo">M</a></li>
+        <li><a href="{{url_for('home')}}">Home</a></li>
+        <li><a href="{{url_for('about')}}">About</a></li>
+        <li><a href="{{url_for('work')}}">My work</a></li>
+        <li><a href="{{url_for('contactme')}}">Contact me</a></li>
+        </ul>
+    </nav>
+    <img id="banner" src="static/dom.jpg" height="320" >
+    <h2>About me</h2>
+    <p> Hello! My name is Laura Máteffy. I am a full-time student at the Slovak University of Technology in Bratislava, at the Faculty of Civil Engineering. I study civil engineer- ing, architecture, and urbanism. Currently, I am in the fourth year of my bachelor’s studies, during which I spent one semester on an Erasmus+ exchange program in Barcelona. During this time, I had the opportunity to work on several projects. As part of my school assignments, I designed a family house, an apartment build- ing, and proposed changes to the use of historical monuments. I worked on proj- ects involving the reconstruction and modernization of buildings and designed the interior of a Thai restaurant. I also worked on an urban planning study for the city of Doldrecht in the Netherlands and the Vikki university campus in Finland. I also participated in a summer school organized by a technical university in the Nether- lands and workshops by Ugreen, as I am interested in sustainability. Additionally, along- side my studies, I gain practical experience in an architectural studio, where I work on projects from concept design to construction realization of various types of buildings.</p>
+    <footer>
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+       </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="{{url_for('home')}}">Home</a></li>
+          <li><a href="{{url_for('about')}}">About</a></li>
+          <li><a href="{{url_for('work')}}">My work</a></li>
+          <li><a href="{{url_for('contactme')}}">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy; 2024; Designed by <span class="designer">Mia</span></p>
+
+      </div>
+    </footer>
+  </body>
+</html>
